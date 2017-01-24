@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "target": "ES6"
+    },
+    "filesGlob": [
+        "typings/index.d.ts",
+        "projects/**/*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules",
+        "projects/client-droplit-io/node_modules",
+        "projects/cw-droplit-io/node_modules",
+        "projects/ioe-droplit-io/node_modules",
+        "projects/wh-droplit-io/node_modules",
+        "projects/ws-droplit-io/node_modules",
+        "projects/@droplit/dq/node_modules",
+        "projects/@droplit/ecobee3-sdk/node_modules",
+        "projects/@droplit/ipc/node_modules",
+        "projects/@droplit/nest-sdk/node_modules",
+        "projects/@droplit/typed-request/node_modules",
+        "projects/@droplit/utils/node_modules"
+    ]
+}

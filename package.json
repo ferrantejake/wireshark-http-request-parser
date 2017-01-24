@@ -1,0 +1,44 @@
+{
+  "name": "ws-http-request-parser",
+  "version": "1.0.0",
+  "description": "Parses and creates well-formed HTTP requests from Wireshark packets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrantejake/wireshark-http-request-parser.git"
+  },
+  "keywords": [
+    "wireshark",
+    "http",
+    "request",
+    "parse"
+  ],
+  "author": "Jake Ferrante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferrantejake/wireshark-http-request-parser/issues"
+  },
+  "homepage": "https://github.com/ferrantejake/wireshark-http-request-parser#readme",
+  "dependencies": {
+    "gulp-tslint": "^7.0.1",
+    "gulp-typescript": "^3.1.4",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-param": "^1.0.3",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-tslint": "^7.0.1",
+    "merge2": "^1.0.3"
+  }
+}
